@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+}
+.header {
+    height: 500px;
+    background-image: url(../assets/service/header-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    
+}
