@@ -18,17 +18,17 @@
     <div class="container-fluid">
       <div class="row" style="height: 100vh">
         <div class="col-4 bg-success h-100">
-          <div class="row">
+          <div class="row mt-5">
             <div class="p-5">
               <div class="p-2 bg-white rounded-pill">
-                <p class="text-center text-success">Pata Service</p>
+                <p class="text-center text-success h3">Pata Service</p>
               </div>
             </div>
           </div>
 
-          <div class="row">
+          <div class="row mt-3">
             <div class="p-5">
-              <p class="text-white text-center">
+              <p class="text-white h1">
                 You are a few clicks away from getting the best services from our patners
               </p>
             </div>
@@ -47,37 +47,37 @@
               <div class="mt-5">
                 <div class="row">
                   <div class="col-6">
-                    <input class="form-control" type="text" placeholder="First Name">
+                    <input id="firstName" class="form-control" type="text" placeholder="First Name">
                   </div>
 
                   <div class="col-6">
-                    <input class="form-control" type="text" placeholder="Last Name">
-                  </div>
-                </div>
-
-                <div class="row mt-5">
-                  <div class="col-6">
-                    <input class="form-control" type="text" placeholder="Phone Number">
-                  </div>
-
-                  <div class="col-6">
-                    <input class="form-control" type="email" placeholder="Email">
+                    <input id="lastName" class="form-control" type="text" placeholder="Last Name">
                   </div>
                 </div>
 
                 <div class="row mt-5">
                   <div class="col-6">
-                    <input class="form-control" type="password" placeholder="Password">
+                    <input id="phoneNumber" class="form-control" type="text" placeholder="Phone Number">
                   </div>
 
                   <div class="col-6">
-                    <input class="form-control" type="password" placeholder="Confirm Password">
+                    <input id="email" class="form-control" type="email" placeholder="Email">
+                  </div>
+                </div>
+
+                <div class="row mt-5">
+                  <div class="col-6">
+                    <input id="password" class="form-control" type="password" placeholder="Password">
+                  </div>
+
+                  <div class="col-6">
+                    <input id="confirmPassword" class="form-control" type="password" placeholder="Confirm Password">
                   </div>
                 </div>
 
                 <div class="row mt-5">
                   <div class="col-3">
-                    <button class="btn btn-success">Create Account</button>
+                    <button type="submit" id="create" class="btn btn-success">Create Account</button>
                   </div>
                 </div>
 
@@ -105,5 +105,6 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="js/users.js"></script>
   </body>
 </html>
