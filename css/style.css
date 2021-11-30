@@ -1,3 +1,57 @@
-body {
-    margin: 0;
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+a {
+  font-weight: bold;
+  text-decoration: none;
+  margin: 50px;
+}
+button {
+  margin: 20px;
+  width: 150px;
+  padding-left: 20px;
+  font-weight: bold;
+}
+.banner {
+  height: 720px;
+  background-image: url("../img/john.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 300px;
+
+  font-size: 40px;
+}
+#text {
+  text-align: center;
+  font-size: 15px;
+}
+#fa {
+  text-decoration: none;
+  color: red;
+}
+.form {
+  padding-left: 380px;
+  width: 1200px;
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+}
+#search {
+  width: 150px;
+  height: 40px;
+  background-color: white;
+  color: black;
+  border-color: gray;
+  margin-top: 20px;
 }
