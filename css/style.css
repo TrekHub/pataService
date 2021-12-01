@@ -7,6 +7,7 @@ a {
   font-weight: bold;
   text-decoration: none;
   margin: 50px;
+  font-weight: bold;
 }
 button {
   margin: 20px;
@@ -27,9 +28,10 @@ button {
 
 h1 {
   text-align: center;
-  padding-top: 300px;
-
+  padding-top: 230px;
   font-size: 40px;
+  color: black;
+  font-weight: bold;
 }
 #text {
   text-align: center;
@@ -47,12 +49,63 @@ h1 {
 p {
   text-align: center;
   font-weight: bold;
+  color: black;
 }
 #search {
-  width: 150px;
-  height: 40px;
-  background-color: white;
-  color: black;
-  border-color: gray;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-left: auto;
+  
+}
+.col{
+  margin-left: 10px;
+  width: 800px;
+  margin-right: 2px;
+}
+#sea{
+  margin-top: 4px;
+  margin-left: 2px;
+  width: 40px;
+}
+#row{
+  padding: 10px;
+  width: 2000px;
+  margin-left: 160px;
+  margin-right: 2px;
+}
+.one{
+  font-weight: bold;
+  margin-top: 2px;
+}
+#a:hover{
+  color:green;
+}
+#a{
+  font-weight: bold;
+}
+#b{
+  font-weight: bold;
+}
+#b:hover{
+  color:green;
+}
+#c{
+  font-weight: bold;
+}
+#c:hover{
+  color:green;
+
+}
+#d{
+  font-weight: bold;
+}
+#d:hover{
+  color:green;
+
+}
+#e{
+  font-weight: bold;
+}
+#e:hover{
+  color:green;
+
 }
