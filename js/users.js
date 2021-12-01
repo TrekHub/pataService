@@ -18,17 +18,38 @@ $('#create').on('click', () => {
   let password = $("#password").val();
   let confirmPassword = $("#confirmPassword").val();
   let phoneNumber = $("#phoneNumber").val();
-  console.log(firstName);
+  // console.log(firstName);
 
   let myCustomer;
 
   if (password === confirmPassword){
     myCustomer = new Customer(id, firstName, lastName, email, password, confirmPassword, phoneNumber);
     customers.push(myCustomer);
+    window.location.href = '../index.html';
   } else {
     alert("Your Passwords didn't match");
   }
 
-  console.log(myCustomer);
-  console.log(customers);
+  // console.log(myCustomer);
+  // console.log(customers);
+});
+
+$('#login').on('click', () => {
+  let loginEmail = $("#loginEmail").val();
+  let loginPassword = $("#loginPassword").val();
+
+  console.log(loginEmail);
+
+  // let i = customers.length;
+  let loginUser = customers.find(customer => {
+    return customer.email === loginEmail;
+  });
+
+  console.log(loginUser);
+
+  if (loginPassword === loginUser.password){
+    window.location.href = '../index.html';
+  } else {
+    alert("Invalid Password");
+  }
 });
