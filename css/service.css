@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+
+body {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+.header {
+  width: 85%;
+  margin: auto;
+}
+.banner {
+  width: 85%;
+  margin: auto;
+}
+#banner-Info {
+  border-radius: 20px;
+  background-color: rgba(196, 196, 196, 0.3);
+}
+
+.search-bg {
+  background-color: #ffffff;
+  height: 110px;
+  border-radius: 10px;
+  left: 120px;
+  bottom: -40px;
+  width: 80%;
+  margin: auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 30px auto;
+  position: absolute;
+}
+.searchRow {
+    width: 90%;
+    margin: auto;
+    margin-top: 13px;
+}
+.banner-Image {
+  position: relative;
+  height: 400px;
+  background-image: url(../assets/service/bg.jpg);
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.featured {
+    margin-top: 60px;
+   
+}
+.card {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: 30px;
+  border-radius: 20px;
+
+}
+.card img {
+  border-radius: 20px;
+}
+#logo {
+  color: #5eb172;
+  font-family: "Nunito", sans-serif;
+}
+#logo-img {
+  color: #080808;
+}
+.nav-item {
+  font-weight: 600 !important;
+}
+#cart-icon {
+  margin-right: 30px;
+}
+.btn-order {
+  width: 130px;
+  height: 40px;
+  margin-left: 10px;
+  background-color: #5eb172;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  padding: 5px 10px;
+  outline: none;
+}
+.order {
+  width: 230px;
+}
+.btn-order:hover {
+  background-color: transparent;
+  border: 2px #5eb172 solid;
+  color: #080808;
+}
+.rating {
+  margin-right: 30px;
+}
+#ratingIcon {
+  color: rgba(255, 216, 78, 1);
+}
