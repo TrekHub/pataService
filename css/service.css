@@ -48,6 +48,15 @@ body {
     margin-top: 60px;
    
 }
+.card {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: 30px;
+  border-radius: 20px;
+
+}
+.card img {
+  border-radius: 20px;
+}
 #logo {
   color: #5eb172;
   font-family: "Nunito", sans-serif;
@@ -81,4 +90,10 @@ body {
   background-color: transparent;
   border: 2px #5eb172 solid;
   color: #080808;
+}
+.rating {
+  margin-right: 30px;
+}
+#ratingIcon {
+  color: rgba(255, 216, 78, 1);
 }

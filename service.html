@@ -7,9 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.2.0/css/all.min.css"
+        integrity="sha512-6c4nX2tn5KbzeBJo9Ywpa0Gkt+mzCzJBrE1RB6fmpcsoN+b/w/euwIMuQKNyUoU/nToKN3a8SgNOtPrbW12fug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/service.css">
+
 
 </head>
 
@@ -41,13 +45,13 @@
                                 <a class="nav-link" href="#featured">Service</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#menu-section">Contact</a>
+                                <a class="nav-link" href="">Contact</a>
                             </li>
                         </ul>
                         <div class="d-flex align-items-center">
                             <div class="counter">
-                                <img height="20" src="./assets/service/search.svg" id="cart-icon" alt="">
-                                <img height="20" src="./assets/service/user.svg" id="cart-icon" alt="">
+                                <img height="20" src="./assets/service/icons/search.svg" id="cart-icon" alt="">
+                                <img height="20" src="./assets/service/icons/user.svg" id="cart-icon" alt="">
                             </div>
                         </div>
                     </div>
@@ -82,9 +86,133 @@
 
 
             <!-- FEATURED PROVIDERS -->
-            <div class="featured mx-0 ">
-
+            <div class="featured mx-0 " id="featured">
                 <h3 class="text-start fw-bold">Featured Service Providers</h3>
+            </div>
+
+
+            <!-- CARDS -->
+            <div class="row d-flex justify-content-md-around my-5 py-4">
+                <div class="card p-0 col-md-3" style="width: 18rem;">
+                    <img src="./assets/service/people/person1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="card-title text-success fw-bold">Plumber</h5>
+                            <h5 class="card-title text-success fw-bold">Rongai</h5>
+                        </div>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+
+                        <div class="rating d-flex justify-content-between">
+                            <div class="d-flex">
+                                <i class="fas fa-star" id="ratingIcon"></i>
+                                <i class="fas fa-star" id="ratingIcon"></i>
+                                <i class="fas fa-star" id="ratingIcon"></i>
+                                <i class="fas fa-star" id="ratingIcon"></i>
+                                <i class="fas fa-star" id="ratingIcon"></i>
+                            </div>
+                            <div>
+                                <h5>4.5</h5>
+
+
+                            </div>
+
+                        </div>
+
+
+                        <a href="#" class="btn btn-success">Hire Me</a>
+                    </div>
+                </div>
+
+                <div class="card p-0 col-md-3" style="width: 18rem;">
+                    <img src="./assets/service/people/person5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="card-title text-success fw-bold">Hair Dresser</h5>
+                            <h5 class="card-title text-success fw-bold">Adams </h5>
+                        </div>
+
+
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <div class="rating d-flex justify-content-between">
+                                <div class="d-flex">
+                                    <i class="fas fa-star" id="ratingIcon"></i>
+                                    <i class="fas fa-star" id="ratingIcon"></i>
+                                    <i class="fas fa-star" id="ratingIcon"></i>
+                                    <i class="fas fa-star" id="ratingIcon"></i>
+                                    <i class="fas fa-star" id="ratingIcon"></i>
+                                </div>
+                                <div>
+                                    <h5>4.5</h5>
+    
+    
+                                </div>
+    
+                            </div>
+
+                        <a href="#" class="btn btn-success">Hire Me</a>
+                    </div>
+                </div>
+                <div class="card p-0 col-md-3" style="width: 18rem;">
+                    <img src="./assets/service/people/person2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="card-title text-success fw-bold">Electrician</h5>
+                            <h5 class="card-title text-success fw-bold">Ayany</h5>
+                        </div>
+
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <div class="rating d-flex justify-content-between">
+                                <div class="d-flex">
+                                    <i class="fas fa-star" id="ratingIcon"></i>
+                                    <i class="fas fa-star" id="ratingIcon"></i>
+                                    <i class="fas fa-star" id="ratingIcon"></i>
+                                    <i class="fas fa-star" id="ratingIcon"></i>
+                                    <i class="fas fa-star" id="ratingIcon"></i>
+                                </div>
+                                <div>
+                                    <h5>4.5</h5>
+    
+    
+                                </div>
+    
+                            </div>
+                        <a href="#" class="btn btn-success">Hire Me</a>
+                    </div>
+                </div>
+                <div class="card p-0 col-md-3" style="width: 18rem;">
+                    <img src="./assets/service/people/person6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="card-title text-success fw-bold">Make Up Artist</h5>
+                            <h5 class="card-title text-success fw-bold">Kasarani</h5>
+                        </div>
+
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <div class="rating d-flex justify-content-between">
+                                <div class="d-flex">
+                                    <i class="fas fa-star" id="ratingIcon"></i>
+                                    <i class="fas fa-star" id="ratingIcon"></i>
+                                    <i class="fas fa-star" id="ratingIcon"></i>
+                                    <i class="fas fa-star" id="ratingIcon"></i>
+                                    <i class="fas fa-star" id="ratingIcon"></i>
+                                </div>
+                                <div>
+                                    <h5>4.5</h5>
+    
+    
+                                </div>
+    
+                            </div>
+                        <a href="#" class="btn btn-success">Hire Me</a>
+                    </div>
+                </div>
+
+
+
 
             </div>
         </div>
@@ -95,7 +223,9 @@
 
 
 
-
+    <footer class="bg-success text-center text-white  fw-bold py-3">
+        @Copyright Pata Service
+    </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer">
     </script>
