@@ -7,11 +7,11 @@ body {
   font-family: "Nunito", sans-serif;
 }
 .header {
-  width: 95%;
+  width: 85%;
   margin: auto;
 }
 .banner {
-  width: 95%;
+  width: 85%;
   margin: auto;
 }
 #banner-Info {
@@ -23,7 +23,7 @@ body {
   background-color: #ffffff;
   height: 110px;
   border-radius: 10px;
-  left: 80px;
+  left: 120px;
   bottom: -40px;
   width: 80%;
   margin: auto;
@@ -42,6 +42,11 @@ body {
   background-image: url(../assets/service/bg.jpg);
   background-size: cover;
   border-radius: 20px;
+}
+
+.featured {
+    margin-top: 60px;
+   
 }
 #logo {
   color: #5eb172;
