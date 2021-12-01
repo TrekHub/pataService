@@ -7,15 +7,14 @@
 	font-family: 'Poppins', sans-serif;
 }
 body{
-    background: #81c644;
+    background-color: green;
     font-family: 'Josefin Sans', sans-serif;
     padding: 0;
     margin: 0;
   }
 .section{
 	width: 100%;
-	min-height: 100vh;
-	background-color: #81c644;
+	min-height: 50vh;
 }
 .container{
 	width: 80%;
@@ -69,7 +68,7 @@ body{
 	margin: 40px 40px;
 }
 .content-section .social i{
-	color:#34a52a;
+	color: black;
 	font-size: 30px;
 	padding:0px 10px;
 }
@@ -120,6 +119,10 @@ body{
   margin-top: 10%;
 }
 
+h1 {
+	font-weight: bold;
+}
+
 .wrapper h1{
   font-family: 'Allura', cursive;
   font-size: 52px;
@@ -138,7 +141,7 @@ body{
 .team .team_member{
   background: #fff;
   margin: 5px;
-  margin-bottom: 500px;
+  /* margin-bottom: 500px; */
   width: 300px;
   padding: 20px;
   line-height: 20px;
