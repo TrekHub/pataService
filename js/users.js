@@ -1,34 +1,16 @@
-function Customer (id, firstName, lastName, email, password, confirmPassword, phoneNumber) {
-  this.id = id;
-  this.firstName = firstName;
-  this.lastName = lastName;
-  this.email = email;
-  this.password = password;
-  this.confirmPassword = confirmPassword;
-  this.phoneNumber = phoneNumber;
-};
+const admin = {
+  userName: "admin",
+  email: "admin@mail.com",
+  password: "admin123" 
+}
 
-let customers = [];
+$('#login').on('click', () => {
+  let loginEmail = $("#loginEmail").val();
+  let loginPassword = $("#loginPassword").val();
 
-$('#create').on('click', () => {
-  let firstName = $("#firstName").val();
-  let lastName = $("#lastName").val();
-  let id = firstName;
-  let email = $("#email").val();
-  let password = $("#password").val();
-  let confirmPassword = $("#confirmPassword").val();
-  let phoneNumber = $("#phoneNumber").val();
-  console.log(firstName);
-
-  let myCustomer;
-
-  if (password === confirmPassword){
-    myCustomer = new Customer(id, firstName, lastName, email, password, confirmPassword, phoneNumber);
-    customers.push(myCustomer);
+  if ((loginPassword === admin.password) && (loginEmail === loginEmail)){
+    window.location.href = '../index.html';
   } else {
-    alert("Your Passwords didn't match");
+    alert("Invalid Email or Password");
   }
-
-  console.log(myCustomer);
-  console.log(customers);
 });
