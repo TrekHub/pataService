@@ -9,8 +9,20 @@ $('#login').on('click', () => {
   let loginPassword = $("#loginPassword").val();
 
   if ((loginPassword === admin.password) && (loginEmail === loginEmail)){
-    window.location.href = '../index.html';
+    window.location.href = '../service.html';
   } else {
     alert("Invalid Email or Password");
+  }
+});
+
+$('#message').on('click', () => {
+  let name = $("#contactName").val();
+  let email = $("#contactEmail").val();
+  let text = $("#contactText").val();
+
+  if ((name !== "") && (email !== "") && (text !== "")) {
+    alert("Your Message has been received");
+  } else {
+    alert("Empty fields not allowed");
   }
 });
