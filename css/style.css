@@ -17,7 +17,7 @@ button {
 }
 .banner {
   height: 100vh;
-  background-image: url("../img/john.jpg");
+  background: url("../img/john.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -108,4 +108,8 @@ p {
 #e:hover{
   color:green;
 
+}
+
+.contact {
+  height: 500px;
 }
