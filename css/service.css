@@ -31,11 +31,30 @@ body {
   padding: 30px auto;
   position: absolute;
 }
+
+@media screen and (max-width: 768px) {
+  .search-bg {
+    height: auto;
+    padding: .4rem 0;
+  }
+}
+
 .searchRow {
     width: 90%;
     margin: auto;
     margin-top: 13px;
+    display: flex;
+    align-items: center;
+    
 }
+
+@media screen and (max-width: 768px) {
+  .search-section  {
+    position: relative;
+    left: 0;
+  }
+}
+
 .banner-Image {
   position: relative;
   height: 400px;
